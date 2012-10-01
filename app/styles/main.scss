@@ -1,3 +1,9 @@
 @import "compass_twitter_bootstrap";
-@import "h5bp.css";
-@import "todo.css";
+@import "_compass_twitter_bootstrap_responsive";
+
+/* @import "h5bp.css"; */
+/* @import "todo.css"; */
+
+body {
+    padding-top: 60px;
+}
