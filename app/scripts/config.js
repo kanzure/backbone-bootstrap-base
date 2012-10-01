@@ -23,6 +23,11 @@ require.config({
       exports: "Backbone"
     },
 
+    bootstrap: {
+        deps: ["jquery"],
+        exports: "Bootstrap"
+    },
+
     // Backbone.LayoutManager depends on Backbone.
     "plugins/backbone.layoutmanager": ["backbone"],
 

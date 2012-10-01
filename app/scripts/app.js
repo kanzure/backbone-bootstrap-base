@@ -3,13 +3,14 @@ define([
   "jquery",
   "lodash",
   "backbone",
+  "bootstrap",
 
   // Plugins.
   "plugins/backbone.layoutmanager",
   "plugins/backbone.localstorage"
 ],
 
-function($, _, Backbone) {
+function($, _, Backbone, Bootstrap) {
 
   // Provide a global location to place configuration settings and module
   // creation.
