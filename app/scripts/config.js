@@ -12,7 +12,8 @@ require.config({
     // Libraries.
     jquery: "../scripts/libs/jquery",
     lodash: "../scripts/libs/lodash",
-    backbone: "../scripts/libs/backbone"
+    backbone: "../scripts/libs/backbone",
+    bootstrap: "../scripts/libs/bootstrap"
   },
 
   shim: {
@@ -26,7 +27,6 @@ require.config({
     "plugins/backbone.layoutmanager": ["backbone"],
 
     "plugins/backbone.localstorage": ["backbone"]
-
   }
 
 });
