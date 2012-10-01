@@ -10,33 +10,54 @@
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width"/>
 
-        <link rel="stylesheet" href="styles/main.css"/>
+        <link rel="stylesheet" href="styles/main.css" />
     </head>
     <body>
-
-    <!-- Main container. -->
-    <div role="main" id="main" class="container">
-        <div class="hero-unit">
-            <h1>Cheerio!</h1>
-            <p>You now have</p>
-            <ul>
-                <li>HTML5 Boilerplate</li>
-                <li>jQuery</li>
-                <li>Backbone.js</li>
-                <li>Backbone LayoutManager</li>
-                <li>Require.js</li>
-                <li>Mocha</li>
-            </ul>
-            <p>installed.</p>
-            <h3>Enjoy coding! - Yeoman</h3>
-        </div>
-    </div>
 
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Project name</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div id="example" class="modal hide fade in" style="display: none; ">
+            <div class="modal-header">
+                <a class="close" data-dismiss="modal">×</a>
+                <h3>This is a Modal Heading</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Text in a modal</h4>
+                <p>You can add some text here.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-success">Call to action</a>
+                <a href="#" class="btn" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1>Welcome to the next generation of map editing.</h1>
+
+            <a data-toggle="modal" href="/#example" class="btn btn-primary btn-large">Settings</a>
+        </div>
 
         <!-- build:js scripts/amd-app.js -->
         <script data-main="scripts/config" src="scripts/libs/require.js"></script>
