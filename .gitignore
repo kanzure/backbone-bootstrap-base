@@ -1,2 +1,5 @@
 temp/
 .sass-cache/
+.*.swp
+.*.sw*
+*~
